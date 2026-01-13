@@ -1,0 +1,5 @@
+numpy>=2.0
+pandas
+matplotlib
+seaborn
+scikit-bio>=0.7.1
