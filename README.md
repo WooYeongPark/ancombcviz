@@ -8,3 +8,23 @@ This package also need `numpy >= 2.0`, `pandas`, `matplotlib >= 0.7.1`, `seaborn
 
 
 
+## Installation
+### From PyPI
+```
+pip install ancombcviz
+```
+
+### From source
+1. `git clone git@github.com:WooYeongPark/ancombcviz.git` 
+2. `cd ancombc_viz`
+3. `pip install -e .`
+
+## Usage
+### Python API
+```
+from ancombc_viz.simple_name import extract_p_g_or_f
+from ancombc_viz.plotting import plot_group_bar
+```
+
+## License
+This project is licensed under the MIT License. see the LICESNSE file for details.
