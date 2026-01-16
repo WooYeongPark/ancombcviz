@@ -65,12 +65,13 @@ def plot_group_bar(
     )
 
 
-    # x축 feature 순서
+    # x-axis feature scaling by feature abundance ranking
     order_feat = top.sort_values("log2FC")["FeatureID"]
 
+    # I think this palette change. e.g. covariate_value.
     palette = {
-        "mmilow_enriched": "firebrick",      # 양수 방향
-        "mmihigh_enriched": "royalblue",     # 음수 방향
+        "mmilow_enriched": "firebrick",      # + sign
+        "mmihigh_enriched": "royalblue",     # - sign 
         "nonsignficant": "lightgray",
     }
     
@@ -95,4 +96,3 @@ def plot_group_bar(
 
     # legend 정리
     ax.legend(frameon=True, bbox_to_anchor=(1.02, 1), loc="upper left")
-

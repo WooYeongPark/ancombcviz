@@ -9,6 +9,19 @@ This package also need `numpy >= 2.0`, `pandas`, `matplotlib >= 0.7.1`, `seaborn
 
 
 ## Installation
+### Installation using conda
+```
+conda env create -f environment.yml
+```
+If finished installation of conda env. activate conda and installation by pip.
+```
+cd ancombc_viz ## Before do this code, you clonning this repository by your directory.
+```
+```
+pip install -e .
+```
+
+
 ### From PyPI
 ```
 pip install ancombcviz

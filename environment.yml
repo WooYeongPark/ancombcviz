@@ -1,0 +1,16 @@
+name: ancombcviz
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - matplotlib
+  - numpy>=2.0.0
+  - pandas
+  - setuptools
+  - psutil
+  - scipy
+  - statsmodels
+  - tqdm
+  - pip
+  - scikit-bio>=0.7.1
